@@ -1,8 +1,8 @@
 paths:
-  raw_path: /kaggle/input/datasets/pollution-forecast-dataset/raw
+  raw_path: /kaggle/input/datasets/preetisahoo/pollution-forecast-dataset/raw
   train_savepath: /kaggle/temp/data/train/
   val_savepath: /kaggle/temp/data/val/
-  min_max_file: /kaggle/input/datasets/pollution-forecast-dataset/stats/feat_min_max.mat
+  min_max_file: /kaggle/input/datasets/preetisahoo/pollution-forecast-dataset/stats/feat_min_max.mat
 
 
 data:
