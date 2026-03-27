@@ -24,8 +24,8 @@ cfg = load_config("configs/train.yaml")
 # device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 device = torch.device("cpu")
 print(f"Using device: {device}")
-if device.type == "cuda":
-    torch.cuda.empty_cache()
+# if device.type == "cuda":
+#     torch.cuda.empty_cache()
 
 torch.manual_seed(0)
 np.random.seed(0)
