@@ -21,7 +21,8 @@ from timeit import default_timer
 
 cfg = load_config("configs/train.yaml")
 
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+# device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+device = torch.device("cpu")
 print(f"Using device: {device}")
 if device.type == "cuda":
     torch.cuda.empty_cache()
