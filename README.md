@@ -1,6 +1,7 @@
 # Baseline Pipeline with FNO2D Model
 
-This repository provides a **reference baseline pipeline** for the Kaggle competition **[AISEHACK Theme 2 - Pollution Forecasting](https://www.kaggle.com/competitions/aisehack-theme-2/overview)**, demonstrating a complete end-to-end workflow using a **2D Fourier Neural Operator (FNO2D)** implementation. It is intended as a **clear, minimal, and reproducible example** rather than a production-optimized solution.
+ **reference baseline pipeline** 
+ **2D Fourier Neural Operator (FNO2D)** implementation
 
 ---
 
@@ -52,7 +53,7 @@ The workflow is organized into **three sequential stages**:
 ### Recommended Setup
 
 1. Upload this repository as a **Kaggle Dataset**
-2. Open the provided **baseline Kaggle notebook**: **[Link](https://www.kaggle.com/code/siddharthandileep/baseline-run-aisehack-test/)**, Copy and Edit the same.
+2. Open the provided **baseline Kaggle notebook**, Copy and Edit the same.
 3. Add:
    - This repository (as a dataset)
    - The official competition dataset
