@@ -2,10 +2,10 @@ experiment:
   name: baseline
 
 paths:
-  input_loc: /kaggle/input/datasets/pollution-forecast-dataset/test_in/
+  input_loc: /kaggle/input/datasets/preetisahoo/pollution-forecast-dataset/test_in/
   checkpoint: /kaggle/working/experiments/baseline/checkpoints/fno_baseline_ep99.pt
   output_loc: /kaggle/working/
-  min_max_file: /kaggle/input/datasets/pollution-forecast-dataset/stats/feat_min_max.mat
+  min_max_file: /kaggle/input/datasets/preetisahoo/pollution-forecast-dataset/stats/feat_min_max.mat
 
 data:
   dataset: test_in     
