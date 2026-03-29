@@ -2,7 +2,7 @@
 # Core deep learning and computing 
 # =========================
 
-torch>=2.0          # PyTorch core (training, autograd, FFTs, GPU/CPU)
+torch==1.13.1          # PyTorch core (training, autograd, FFTs, GPU/CPU)
 triton             
 numpy               # Multidimensional array handling
 scipy               # Scientific routines, IO
